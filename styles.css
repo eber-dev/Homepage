@@ -73,3 +73,58 @@ body {
 .enlaces_perfil > a > img {
     height: 3rem;
 }
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > img {
+    height: auto;
+    width: 25rem;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion > div {
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.descripcion > div > div {
+    display: flex;
+}
+
+.descripcion > div > h2 {
+    color: red;
+}
+
+.descripcion > div > div > a > img {
+    height: 2rem;
+}
