@@ -77,10 +77,11 @@ body {
 .seccion2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo {
-    text-align: center;
     font-size: 3rem;
 }
 
@@ -88,6 +89,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
+    margin-inline: 4rem;
+    gap: 1rem;
 }
 
 .card {
@@ -95,11 +98,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid violet;
 }
 
 .card > img {
-    height: auto;
+    height: 20rem;
     width: 25rem;
+    object-fit: cover;
 }
 
 .descripcion {
@@ -127,4 +132,34 @@ body {
 
 .descripcion > div > div > a > img {
     height: 2rem;
+}
+
+.seccion3 {
+    display: flex;
+    background-color: #0b92b3;
+}
+
+.fondo {
+    display: flex;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.medios {
+    display: flex;
+}
+
+.medios > div {
+    display: flex;
+}
+
+.enlaces_contacto {
+    display: flex;
+}
+
+.enlaces_contacto > a > img {
+    height: 3rem;
 }
