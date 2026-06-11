@@ -3,9 +3,12 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    gap: 1.5rem;
 }
 
 .seccion1 {
@@ -79,10 +82,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .titulo {
     font-size: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .tarjetas {
@@ -120,6 +125,12 @@ body {
     border: 1px solid green;
     width: 100%;
     justify-content: space-around;
+}
+
+.descripcion > p {
+    text-align: justify;
+    margin-inline: 4rem;
+    font-size: 1rem;
 }
 
 .descripcion > div > div {
